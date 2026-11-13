@@ -35,7 +35,8 @@ class RingkasanPage extends StatelessWidget {
 
       // Halaman dapat di-scroll agar tidak overflow
       body: SingleChildScrollView(
-        child: Padding(
+        // Container digunakan untuk mengatur jarak isi halaman
+        child: Container(
           padding: const EdgeInsets.all(16),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
